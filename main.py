@@ -1,14 +1,13 @@
+from banner_ascii import exibir_banner
 from src.telemetria import coletar_telemetria
 from src.ui import analisar_missao
 
 
 def main():
 
-    while True:
+    exibir_banner()
 
-        print("\n" + "=" * 60)
-        print("MISSION CONTROL AI - ENVIROSAT")
-        print("=" * 60)
+    while True:
 
         print("\n1 - Inserir telemetria")
         print("2 - Encerrar")
